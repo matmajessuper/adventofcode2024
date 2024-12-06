@@ -7,7 +7,7 @@ def test_check_conditions():
     diffs = [1, 2, 3, 4, 5]  # difference is bigger then 3
     assert not check_conditions(diffs)
 
-    diffs = [0, 2, 3, 3, 1]  # difference is smaller then _1
+    diffs = [0, 2, 3, 3, 1]  # difference is smaller then 1
     assert not check_conditions(diffs)
 
     diffs = [1, 2, 3, -1, -2]  # positive and negative mixed

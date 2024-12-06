@@ -19,7 +19,6 @@ def main():
                 safe_1 += 1
             if any((check_conditions(np.diff(combination)) for combination in combinations(numbers, len(numbers) - 1))):
                 safe_2 += 1
-                print(line)
     return f'{safe_1} {safe_2}'
 
 
